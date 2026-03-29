@@ -177,7 +177,7 @@
             //    bool isSubset = subset.IsSubsetOf(setA);
             //    Console.WriteLine("{1,2} is subset of A? " + isSubset); 
             #endregion
-            
+
             #region Exercise 5: Print Queue Simulator
 
 
@@ -215,7 +215,48 @@
             //} 
             #endregion
 
+            #region Exercise 6: Browser History (Undo)
 
+            //// 1️ Create a stack for browser history and push 5 URLs
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+
+            //// 2️ Peek to see the current page
+            //string currentPage = browserHistory.Peek();
+            //Console.WriteLine("Current page: " + currentPage);
+
+            //// 3️ Press "back" 3 times using Pop
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string leftPage = browserHistory.Pop();
+            //    Console.WriteLine("Leaving page: " + leftPage);
+            //}
+
+            //// 4️ Print the current page after going back
+            //if (browserHistory.Count > 0)
+            //{
+            //    Console.WriteLine("Current page after going back: " + browserHistory.Peek());
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No pages left in history");
+            //}
+
+            //// 5️ Try TryPop on an empty stack
+            //Stack<string> emptyStack = new Stack<string>();
+            //if (emptyStack.TryPop(out string poppedPage))
+            //{
+            //    Console.WriteLine("Popped page: " + poppedPage);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Stack is empty. Nothing to pop.");
+            //} 
+            #endregion
         }
 
 
