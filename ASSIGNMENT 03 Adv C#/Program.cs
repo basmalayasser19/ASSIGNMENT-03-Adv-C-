@@ -1,0 +1,10 @@
+﻿namespace ASSIGNMENT_03_Adv_C_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
