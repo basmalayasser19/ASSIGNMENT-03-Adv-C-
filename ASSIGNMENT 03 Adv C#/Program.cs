@@ -42,7 +42,52 @@
             //Console.WriteLine("Grades as strings: " + string.Join(", ", gradeStrings)); 
             #endregion
 
+            #region Exercise 2: Leaderboard
+            //    // Create a leaderboard: key = score, value = player name
+            //    SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>
+            //{
+            //    {500, "Ahmed"},
+            //    {200, "Sara"},
+            //    {800, "Ali"},
+            //    {350, "Mona"}
+            //};
 
+            //    // Print all entries (sorted by score automatically)
+            //    Console.WriteLine("Leaderboard:");
+            //    foreach (var entry in leaderboard)
+            //    {
+            //        Console.WriteLine($"Score: {entry.Key}, Player: {entry.Value}");
+            //    }
+
+            //    // Access the first key and first value
+            //    int firstScore = leaderboard.Keys.First();
+            //    string firstPlayer = leaderboard[firstScore];
+            //    Console.WriteLine($"\nFirst Entry -> Score: {firstScore}, Player: {firstPlayer}");
+
+            //    // Check if score 500 exists
+            //    bool hasScore500 = leaderboard.ContainsKey(500);
+            //    Console.WriteLine("Contains score 500? " + hasScore500);
+
+            //    // Safely get the player with score 999
+            //    if (leaderboard.TryGetValue(999, out string player999))
+            //    {
+            //        Console.WriteLine("Player with score 999: " + player999);
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("No player found with score 999");
+            //    }
+
+            //    // Remove the player with score 200
+            //    leaderboard.Remove(200);
+
+            //    // Print updated leaderboard
+            //    Console.WriteLine("\nUpdated Leaderboard:");
+            //    foreach (var entry in leaderboard)
+            //    {
+            //        Console.WriteLine($"Score: {entry.Key}, Player: {entry.Value}");
+            //    } 
+            #endregion
         }
     }
     
